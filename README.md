@@ -1,17 +1,22 @@
 # mortgage_calculator
 Going to create a new Project based on React and use the visual studio code as the IDE
 
-Awesome—here’s a clean, production-minded project structure for a Mortgage Calculator with a React (Vite + TypeScript) frontend and a Python FastAPI backend. It’s tuned for speed, stability, and easy dev/CI/CD.
+Awesome—here’s a clean, production-minded project structure for a Mortgage Calculator with a React (Vite + TypeScript) frontend and a Python FastAPI backend. 
+It’s tuned for speed, stability, and easy dev/CI/CD.
 
 Tech choices (why these?)
 
-Frontend: React + Vite (very fast dev server & builds), TypeScript, React Router, TanStack Query (resilient data fetching with caching/retries), Zustand (light state), Tailwind CSS + shadcn/ui (attractive, consistent UI), Error Boundaries, code-splitting & lazy routes.
+Frontend: React + Vite (very fast dev server & builds), TypeScript, React Router, TanStack Query
+ (resilient data fetching with caching/retries), Zustand (light state),
+ Tailwind CSS + shadcn/ui (attractive, consistent UI), Error Boundaries, code-splitting & lazy routes.
 
 Backend: FastAPI (fast, typed, great validation via Pydantic), Uvicorn (ASGI server), Poetry (reliable deps), pytest. Optional Redis cache if needed.
 
 Quality & Stability: strict typing, request/response validation, global error handlers, timeouts, retries, health checks, CI workflow.
 
 Shipping: Docker (multi-stage builds), docker-compose for local, Nginx for static + reverse proxy (optional).
+
+
 
 Monorepo folder tree
 mortgage-calculator/
@@ -90,3 +95,8 @@ mortgage-calculator/
 └── .github/
     └── workflows/
         └── ci.yml
+        
+        
+ -------------------
+ 
+ to run the app --> npm run dev
